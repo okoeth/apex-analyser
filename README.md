@@ -13,6 +13,7 @@ abovementioned blogpost (this generation is not yet part of the maven
 file).
 *  The path to the GraphViz "dot" command in ArcHandler.java
 *  The path to the output directories in ApexClassAnalyser.java
+*  The trigger / class name(s) to be analysed in Main.java
 
 ## Usage ###
 Run `mvn install` to build the jar file with dependencies. Then run
