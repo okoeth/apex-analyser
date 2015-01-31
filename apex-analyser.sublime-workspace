@@ -7,13 +7,65 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 1093,
+				"line_ending": "Windows",
+				"name": "## Introduction ##"
+			}
+		},
+		{
+			"contents": "Remote:   origin @ git@github.com:okoeth/apex-analyser.git\nLocal:    master C:\\dev-workspace\\apex-analyser\nHead:     17d3d51 Amended Readme.md\n\n\nNothing to commit (working directory clean)\n\n# Movement:\n#    r = refresh status\n#    1-5 = jump to section\n#    n = next item, N = next section\n#    p = previous item, P = previous section\n#\n# Staging:\n#    s = stage file/section, S = stage all unstaged files\n#    ctrl+shift+s = stage all unstaged and untracked files\n#    u = unstage file/section, U = unstage all files\n#    backspace = discard file/section, shift+backspace = discard everything\n#\n# Commit:\n#    c = commit, C = commit -a (add unstaged)\n#    ctrl+shift+c = commit --amend (amend previous commit)\n#\n# Other:\n#    i = ignore file, I = ignore pattern\n#    enter = open file\n#    d = view diff\n#\n# Stashes:\n#    a = apply stash, A = pop stash\n#    z = create stash, Z = create stash including untracked files\n#    backspace = discard stash",
+			"settings":
+			{
+				"buffer_size": 950,
+				"line_ending": "Windows",
+				"name": "*git-status*: apex-analyser",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "src/main/java/com/nttdata/ta/Main.java",
+			"settings":
+			{
+				"buffer_size": 2586,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/KOETHO/AppData/Local/Temp/wzb509/ReadMe.txt",
+			"settings":
+			{
+				"buffer_size": 2681,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 311.0,
 		"selected_items":
 		[
+			[
+				"Git: P",
+				"Git: Push"
+			],
+			[
+				"Git: Push",
+				"Git: Push"
+			],
+			[
+				"Git: Re",
+				"Git: Add Remote"
+			],
+			[
+				"Git: St",
+				"Git: Status"
+			],
 			[
 				"glue",
 				"Glue - Launch"
@@ -51,7 +103,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/dev-workspace/apex-analyser"
+		"/C/dev-workspace/apex-analyser",
+		"/C/dev-workspace/apex-analyser/src",
+		"/C/dev-workspace/apex-analyser/src/main",
+		"/C/dev-workspace/apex-analyser/src/main/java",
+		"/C/dev-workspace/apex-analyser/src/main/java/com",
+		"/C/dev-workspace/apex-analyser/src/main/java/com/nttdata",
+		"/C/dev-workspace/apex-analyser/src/main/java/com/nttdata/apex_analyser",
+		"/C/dev-workspace/apex-analyser/src/main/java/com/nttdata/ta"
 	],
 	"file_history":
 	[
@@ -235,8 +294,128 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1093,
+								1093
+							]
+						],
+						"settings":
+						{
+							"auto_name": "## Introduction ##",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"draw_white_space": "none",
+							"git_repo": "C:\\dev-workspace\\apex-analyser",
+							"git_status": true,
+							"git_view": "status",
+							"syntax": "Packages/SublimeGit/syntax/SublimeGit Status.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/main/java/com/nttdata/ta/Main.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2586,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1216,
+								1239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/KOETHO/AppData/Local/Temp/wzb509/ReadMe.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2681,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2604,
+								2604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 476.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -278,6 +457,14 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
 	},
 	"project": "apex-analyser.sublime-project",
 	"replace":

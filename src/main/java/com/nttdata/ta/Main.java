@@ -16,18 +16,32 @@ public class Main {
 		System.out.println("Hello world");
 
         try {        	
-    		System.out.println(args[0]);
-    		System.out.println(args[1]);
+    		if (args.length < 3) {
+    			System.out.println("Usage: apex-analyser <user> <password> -[dtc] <name>");
+    			System.exit(0);
+    		}
         	String sessionId = 
         		PartnerDriver.loginForSessionId(args[0], args[1]); 
     		System.out.println(sessionId);
 
     		ToolingDriver.createWSBindingProvider(sessionId);
     		
-
     		ApexClassAnalyser apexClassAnalyser = new ApexClassAnalyser();
-//    		apexClassAnalyser.deleteMetadataContainer();
-    		apexClassAnalyser.analyseApexTrigger("AccountLinkAfter");
+
+    		if (args[2].equals("-d")) {
+    			apexClassAnalyser.deleteMetadataContainer();
+    		} else if (args[2].equals("-t")) {
+    			apexClassAnalyser.analyseApexTrigger(args[3]);
+    		} else if (args[2].equals("-c")) {
+    			apexClassAnalyser.analyseApexClass(args[3]);
+    		}
+
+//			apexClassAnalyser.analyseApexTrigger("RecallAfterInsertUpdate");
+//			apexClassAnalyser.analyseApexTrigger("RecallBeforeDelete");
+//    		apexClassAnalyser.analyseApexTrigger("AccountLinkAfter");
+//			apexClassAnalyser.analyseApexTrigger("AccountAfterInsertOrUpdate");
+//			apexClassAnalyser.analyseApexTrigger("AccountBeforeInsertUpdate");
+//    		apexClassAnalyser.analyseApexTrigger("TriggerAccount");
 //    		apexClassAnalyser.analyseApexClass("AccountHelper");
         }
         finally {
