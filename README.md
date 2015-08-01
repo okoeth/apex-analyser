@@ -1,7 +1,7 @@
 ## Introduction ##
 This apex analyser generates dependency diagrams as PDFs. 
 The dependencies are analysed using the Tooling API. Further
-explanations are given in this [blog post](http://mfdcbwy.postach.io/well-it-depends-using-the-tooling-api-to-generate-dependency-graphs-for-apex-classes-and-triggers)
+explanations are given in this [blog post](https://medium.com/@okoeth/well-it-depends-using-the-tooling-api-to-generate-dependency-graphs-for-apex-classes-and-triggers-d3c13a3e70fb)
 
 ## Configuration ##
 There are a number of hard coded parameters that need to be adjusted 
